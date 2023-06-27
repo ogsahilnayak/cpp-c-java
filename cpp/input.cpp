@@ -3,9 +3,10 @@ using namespace std;
 
 int main(){
 
-    int num = 56;
-    // string name ="sahil";
-    cout<<num;
+    int a;
+    cout<<"enter a number: ";
+    cin>>a;
+    cout<<a;
 
 
     return 0;
