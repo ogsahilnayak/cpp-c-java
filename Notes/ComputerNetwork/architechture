@@ -1,0 +1,47 @@
+* java is a class based object oriented programming language.
+* we can debug easily in java 
+* it is developed by james gosling and later on it is acquire by oracle
+
+features of java:
+
+1. it is object oriented programming language
+2. it is platform independent 
+3. it is fairly simple and secure
+4. java has a large standard library
+
+Java Architecture:
+
+source code ------> Compile(javac) ----->Bytecode(.class) ----> interpret-----> machine code (0/1)
+Components:
+
+JDK- java developement kid
+JVM- java virtual machine 
+JRE- java runtime environment
+
+
+structure:
+
+(a) JVM:
+1. class loader
+2. Memory area---> storage area(stack, leap etc)
+3. execution engine---> interpreter + JIT compiler(Just in Time) + GC(garbage collector)
+
+use of JIT compiler:
+
+* it optimise the JVM performance
+* repeated code 
+
+use Garbage collector:
+
+* unused memory ----> deallocate
+
+(b) JRE:
+
+* they need some runtime library
+
+JRE = JVM + libraries
+
+(c) JDK:
+
+it include everything
+
